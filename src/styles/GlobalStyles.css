@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--primaryPurple: #7aa899;
+	--black-1: #7aa899;
+	--black-2: #585858;
+	--bg-1: #f8f8ff;
+	--bg-2: #7aa899;
+	--bg-3: #7aa899;
+	--gray-1: #eee;
+	--gray-2: #6e6c78;
+	--black: black;
+	--white: white;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	width: 100%;
+	min-height: 100vh;
+	background-color: (--bg-1);
+}
+
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+.container {
+	width: 90%;
+	max-width: 750px;
+	margin: 0 auto;
+}
